@@ -1,0 +1,70 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.App{
+  text-align: center;
+}
+
+.itemBg {
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: Left;
+  font-size: 22px;
+  position: relative;
+  }
+
+  .itemBg div {
+  display: flex;
+  align-items: center;
+}
+
+.itemNumber {
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: Center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+  }
+
+.itemBg .itemText {
+flex: 1;
+  }
+
+.itemBg .done .itemText {
+  text-decoration: line-through;
+  opacity: 0.3;
+  }
+
+.iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.itemBg .iconsWrap span{
+  display: inline-block;
+  margin: 0px 10px 0 10px;
+  cursor: pointer;
+  color: #00ff89;
+}
+
+.itemBg .iconsWrap span:hover {
+  color: yellow;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
